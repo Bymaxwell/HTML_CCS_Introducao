@@ -1,6 +1,26 @@
 
-p{ color: red;
+p{ color: white;
     background-color:blue;
     font-family: Verdana;
-    
+    font-size: 40px;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+
+#div_direita{
+    background-color:brown;
+}
+
+#div_esquerda{
+    background-color: greenyellow;
+}
+
+header{
+    background-color: green;
+}
+
+footer{
+    background-color: yellow;
 }
