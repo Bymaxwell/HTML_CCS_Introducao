@@ -1,12 +1,12 @@
 
-p{ color: white;
-    background-color:blue;
-    font-family: Verdana;
-    font-size: 40px;
+p{
+    color: white;
+    padding: 30px;
 }
 *{
     margin:0;
     padding: 0;
+    font-family: Verdana;
 }
 
 body{
@@ -14,27 +14,53 @@ body{
 }
 
 #div_direita{
-    width:40%;
+    margin: 20px;
+    width:29%;
     float: right;
     height: 550px;
     background-color:brown;
 }
 
 #div_esquerda{
-    width: 60%;
+    margin: 20px;
+    width: 66%;
     height: 550px;
     float: left;
     background-color: greenyellow;
 }
-footer{
-    clear: both;
-    background-color: yellow;
-}
-header{
-    background-color: green;
+
+#div_principal{
+    min-height: 600px;
+    background-image: url('back_ground.png');
+    background-size: 100%;
+    padding: 60px 0 0 0;
 }
 
+
+footer{
+    min-height: 50px;
+    clear: both;
+    padding: 5px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(23, 118, 131);
+}
+header{
+    height: 60px;
+    background-color: rgb(23, 118, 131);
+    padding: 50px;
+}
+
+h1{
+    color: white;
+    height:80px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 0 10px 0;
+    
+}
 .container{
-    width: 960px;
-    margin:auto;
+    width: 750px;
+    margin:0 auto;
 }
