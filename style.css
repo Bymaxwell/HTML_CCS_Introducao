@@ -9,7 +9,7 @@ p{
 *{
     margin:0;
     padding: 0;
-    font-family: Verdana;
+    font-family: monospace;
 }
 
 body{
@@ -33,15 +33,39 @@ body{
 }
 
 #div_principal{
+    clear: both;
     min-height: 600px;
     background-image: url('imagens/back_ground.png');
     background-size: 100%;
-    padding: 50px 0 0 0;
+    padding: 40px 0 0 0;
 }
 #imagem_menu{
     min-height: 100px;
-    padding: 40px;
+    padding: 10px;
     text-align: center;
+}
+
+#logo{
+    float: left;
+}
+#menu{
+    float: right;
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 1px #111111;
+    font-size: 20px;
+    padding: 46px 20px;
+
+}
+
+#menu a:hover{
+    background-color: #88CDAA;;
+    
+   
+
+
 }
 
 footer{
@@ -55,7 +79,7 @@ footer{
     background-color: rgb(23, 118, 131);
 }
 header{
-    height: 60px;
+    height: 20px;
     background-color: rgb(23, 118, 131);
     padding: 50px;
 }
